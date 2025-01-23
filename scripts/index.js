@@ -52,7 +52,6 @@ const getResult = async (evt) => {
 
     results.forEach(res => resultContainer.appendChild(renderTemplate(res)));
 
-    return results;
   } catch (err) {
     console.log(`Ошибка ${err}`)
   }
